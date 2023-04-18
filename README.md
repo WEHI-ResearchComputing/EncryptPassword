@@ -38,7 +38,7 @@ If the fist line in EncryptPass.py is `#!/stornext/System/data/apps/rc-tools/rc-
 
 Required:
 * Python > 3.6
-* cryptography
+* cryptography: [https://cryptography.io/en/latest/](https://cryptography.io/en/latest/)
 
 Using conda
 ```

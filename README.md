@@ -38,8 +38,12 @@ If the fist line in EncryptPass.py is `#!/stornext/System/data/apps/rc-tools/rc-
 
 Required:
 * Python > 3.6
-* pip
 * cryptography
+
+Using conda
+```
+conda create -n testenc python=3.7  cryptography
+```
 
 
 

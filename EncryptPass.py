@@ -40,7 +40,7 @@ def enc_pass(keypath=None,encpath=None):
 
 def main(args=None):
     if not args:
-        parser = argparse.ArgumentParser(description='Encrypt password in file')
+        parser = argparse.ArgumentParser(description='Encrypt password/text in file')
         parser.add_argument('-k','--key_path', metavar='path', required=False,
                             help='the path to encryption key. If not given, a new one will be created ~/.key.key')
         parser.add_argument('-p','--encrypted_path', metavar='path', required=False,
